@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
 
 :root{
-    --dark: #2b2d42;
-    --light: #adb5bd;
+    --dark: #160127;
+    --light: #adb2bd;
     --border: #dee2e6;
     --border-btn: #edf2f4;
 }
@@ -72,13 +72,20 @@ a {
 }
 
 #site-main{
-    margin-top: 6em;
+    background-color: rgb(120, 180, 230);
     font-family: 'Barlow', sans-serif;
+    margin-top: 10em;
+    padding-top: 2rem;
 }
 
 #site-main .container .box-nav > a{
     font-size: 1em;
-    padding: .5em 1em;
+    padding: .5em 3em;
+    position: relative;
+    left: 50rem;
+    border-radius: 100%;
+    border: 3px dashed;
+    background-color: rgb(255, 255, 255);
 }
 
 #site-main .container form{
