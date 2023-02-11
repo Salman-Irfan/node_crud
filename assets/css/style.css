@@ -15,8 +15,8 @@ a {
 }
 
 .container{
-    max-width: 78%;
     margin: auto;
+    max-width: 78%;
 }
 
 .d-flex{
@@ -33,9 +33,8 @@ a {
 }
 
 .border-shadow{
-    border: 1px solid var(--border-btn);
     box-shadow: 1px 3px 10px #e9ecef;
-} */
+} 
 
 .inline{
     display: inline-block;
@@ -47,8 +46,8 @@ a {
 
 .text-gradient{
     background: linear-gradient(to right, #015213, #016109);
-    font-weight: bolder;
     font-size: 1.5rem;
+    font-weight: bolder;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
@@ -68,15 +67,15 @@ a {
 }
 
 #site-main .container .box-nav > a{
+    border-bottom: 3px dashed #614c00;
+    background-color: rgb(255, 255, 255);
+    border-left: 7px solid #614c00;
+    border-radius: 100%;
+    border-right: 7px solid #614c00;
+    border-top: 3px dashed #614c00;
+    left: 50rem;
     padding: .5em 3em;
     position: relative;
-    left: 50rem;
-    border-radius: 100%;
-    border-top: 3px dashed;
-    border-bottom: 3px dashed;
-    border-left: 7px solid;
-    border-right: 7px solid;
-    background-color: rgb(255, 255, 255);
 }
 
 #site-main .container form{
@@ -112,7 +111,7 @@ table{
 
 .table .thead-dark th{
     color: #fff;
-    background-color: var(--dark) ;
+    background-color: #614c00;
 }
 
 @media only screen and (max-width: 1024px){
@@ -151,8 +150,8 @@ table{
 
 #update_user .form-group,
 #add_user .form-group{
-    margin: .4em 0;
     background-color: #ffdf6a;
+    margin: .4em 0;
 }
 
 #update_user .form-group input[type="text"],
@@ -178,21 +177,21 @@ table{
 }
 
 .radio input[type='radio'] + .radio-label:before{
-    content: "";
     background: var(--border-btn);
-    border-radius: 100%;
     border: 1px solid var(--border);
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    position: relative;
-    top: -0em;
-    margin-right: .5em;
-    vertical-align: top;
+    border-radius: 100%;
+    content: "";
     cursor: pointer;
+    display: inline-block;
+    height: 1em;
+    margin-right: .5em;
+    position: relative;
     text-align: center;
-    -webkit-transition: all 250ms ease;
+    top: -0em;
     transition: all 250ms ease;
+    vertical-align: top;
+    width: 1em;
+    -webkit-transition: all 250ms ease;
 }
 
 .radio input[type='radio']:checked + .radio-label:before{
@@ -201,14 +200,14 @@ table{
 }
 
 .radio input[type='radio']:focus + .radio-label:before{
-    outline: none;
     border-color:#16db93;
+    outline: none;
 }
 
 .radio input[type='radio']:disabled + .radio-label:before{
-    box-shadow: inset 0 0 0 4px #e9ecef;
-    border-color: #b4b4b4;
     background: #b4b4b4;
+    border-color: #b4b4b4;
+    box-shadow: inset 0 0 0 4px #e9ecef;
 }
 
 #update_user .form-group .btn,
@@ -236,8 +235,8 @@ table{
 /* light color class, file=> add_user.ejs */
 .light-color{
     color: #ffc800;
-    font-weight: bolder;
     font-size: 1.5rem;
+    font-weight: bolder;
 }
 .underline{
     text-decoration: underline;
