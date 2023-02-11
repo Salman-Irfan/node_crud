@@ -56,9 +56,11 @@ a {
 
 .text-gradient{
     background: linear-gradient(to right, #015213, #016109);
+    font-weight: bolder;
+    font-size: 1.5rem;
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 #header nav{
