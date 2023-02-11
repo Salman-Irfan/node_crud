@@ -1,16 +1,13 @@
-
-:root{
-    --dark: #160127;
-    --light: #adb2bd;
-    --border: #dee2e6;
-    --border-btn: #edf2f4;
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --dark: #160127;
+}
+
 
 a {
     text-decoration: none;
