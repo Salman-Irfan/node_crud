@@ -154,13 +154,14 @@ table{
 }
 
 .new_user{
-    max-width: 786px;
+    max-width: 500px;
     margin: auto;
 }
 
 #update_user .form-group,
 #add_user .form-group{
     margin: .4em 0;
+    background-color: #ffdf6a;
 }
 
 #update_user .form-group input[type="text"],
@@ -177,12 +178,12 @@ table{
 #update_user .form-group .radio,
 #add_user .form-group .radio{
     margin: 1em 2em;
+    
 }
 
 /* adding style to radio buttons */
 .radio input[type='radio']{
     position: absolute;
-    opacity: 0;
 }
 
 .radio input[type='radio'] + .radio-label:before{
@@ -223,7 +224,7 @@ table{
 #add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
-    background-color:#16db93; 
+    background-color: white; 
     border: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
@@ -234,6 +235,18 @@ table{
 
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover{
-    background-color: var(--dark);
+    background-color: skyblue;
+    font-weight: bolder;
+    font-size: 1.1rem;
     color: var(--border);
+}
+
+/* light color class, file=> add_user.ejs */
+.light-color{
+    color: #ffc800;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.underline{
+    text-decoration: underline;
 }
