@@ -70,27 +70,30 @@ a {
 }
 
 #site-main{
-    background-color: rgb(120, 180, 230);
-    font-family: 'Barlow', sans-serif;
-    margin-top: 10em;
+    background-color: rgb(0, 0, 0);
+    margin-top: 5em;
     padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 #site-main .container .box-nav > a{
-    font-size: 1em;
     padding: .5em 3em;
     position: relative;
     left: 50rem;
     border-radius: 100%;
-    border: 3px dashed;
+    border-top: 3px dashed;
+    border-bottom: 3px dashed;
+    border-left: 7px solid;
+    border-right: 7px solid;
     background-color: rgb(255, 255, 255);
 }
 
 #site-main .container form{
-    margin: 2em 0;
+    margin: 1em 0;
 }
 
 table{
+    background-color: skyblue;
     border-spacing: 0px;
     width: 100%;
 }
@@ -109,7 +112,7 @@ table{
 }
 
 .table tr:hover{
-    background-color:#06d6a0 ;
+    background-color:#ffffff ;
 }
 
 .table tr:hover td > a{
